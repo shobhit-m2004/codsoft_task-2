@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+    int b;
+    char operation;
+
+    cout<<"enter the first operand"<<endl;
+    cin>>a;
+    cout<<"enter the second operand"<<endl;
+    cin>>b;
+    cout<<"enter the operation"<<endl;
+    cin>>operation;
+if(operation == '+'){
+    cout<<"ans="<<(a+b)<<endl;
+}
+
+else if(operation == '-'){
+    cout<<"ans="<<(a-b)<<endl;
+}  
+ else if(operation == '*'){
+    cout<<"ans="<<(a*b)<<endl;
+}
+else if(operation=='/'){
+    cout<<"ans"<<a/b<<endl;
+}
+
+else if(operation=='%'){
+    cout<<"ans"<<a%b<<endl;
+}
+else{
+    cout<<"error!!"<<endl;
+}
+return 0;
+}
